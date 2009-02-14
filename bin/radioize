@@ -1,4 +1,8 @@
 #!/usr/bin/env ruby
 require 'rubygems'
 require 'lib/radio'
-puts Radio.radioize(ARGV.first)
+if ARGV.first
+  puts Radio.radioize(ARGV.first)
+else
+  puts "Please specify a word to radioize"
+end
