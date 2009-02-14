@@ -1,8 +1,6 @@
-require File.dirname(__FILE__) + '/radio/string'
+require 'radio/string'
 
 module Radio
-  VERSION = '0.0.1'
-  
   def self.radioize(word, delimiter='-')
     word.gsub(/\W/, '').split('').map do |i| 
       if i.upcase?

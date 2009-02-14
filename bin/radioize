@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require 'rubygems'
-require 'lib/radio'
+require 'radio'
+
 if ARGV.first
   puts Radio.radioize(ARGV.first)
 else
