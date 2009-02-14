@@ -2,18 +2,20 @@
 
 Gem::Specification.new do |s|
   s.name = %q{radio}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Randy Schmidt"]
   s.date = %q{2009-02-13}
   s.description = %q{Radio is a gem for converting words to radio (alpha beta etc)}
   s.email = %q{randy@umlatte.com}
-  s.files = ["History.txt", "Rakefile", "README.textile", "lib", "lib/radio", "lib/radio/string.rb", "script", "script/console", "test", "test/test_helper.rb", "test/test_radio.rb"]
+  s.files = ["History.txt", "Rakefile", "README.textile", "lib", "lib/radio", "lib/radio/string.rb", "script", "script/console", "test", "test/test_helper.rb", "test/test_radio.rb", "bin", "bin/radioize"]
   s.has_rdoc = false
   s.homepage = %q{http://github.com/r38y/radio}
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.0}
+  s.bindir = 'bin'
+  s.executables << 'radioize'
   s.summary = %q{Radio is a gem for converting words to radio (alpha beta etc)}
 
   if s.respond_to? :specification_version then
