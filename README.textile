@@ -1,10 +1,10 @@
 = radio
 
-* FIX (url)
+* http://github.com/r38y/radio
 
 == DESCRIPTION:
 
-FIX (describe your package)
+Generates a radio alphabet version of a word ie radio => romeo-alpha-delta-india-oscar
 
 == FEATURES/PROBLEMS:
 
@@ -12,21 +12,22 @@ FIX (describe your package)
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+* In ruby code - Radio.radioize(word, separator)
+* Command-line $ radioize word
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+* None
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+* sudo gem install r38y-radio
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2009 FIXME full name
+Copyright (c) 2009 Randy Schmidt
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
