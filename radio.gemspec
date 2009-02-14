@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.date = %q{2009-02-13}
   s.description = %q{Radio is a gem for converting words to radio (alpha beta etc)}
   s.email = %q{randy@umlatte.com}
-  s.files = ["History.txt", "Rakefile", "README.textile", "lib", "lib/radio", "lib/radio/string", "script", "script/console", "test", "test/test_helper", "test/test_radio"]
+  s.files = ["History.txt", "Rakefile", "README.textile", "lib", "lib/radio", "lib/radio/string.rb", "script", "script/console", "test", "test/test_helper.rb", "test/test_radio.rb"]
   s.has_rdoc = false
   s.homepage = %q{http://github.com/r38y/radio}
   s.require_paths = ["lib"]
