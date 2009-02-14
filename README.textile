@@ -1,29 +1,27 @@
-= radio
-
-* http://github.com/r38y/radio
-
-== DESCRIPTION:
+h1. DESCRIPTION:
 
 Generates a radio alphabet version of a word ie radio => romeo-alpha-delta-india-oscar
 
-== FEATURES/PROBLEMS:
+http://github.com/r38y/radio
 
-* FIX (list of features or problems)
+h1. FEATURES/PROBLEMS:
 
-== SYNOPSIS:
+* None yet?
+
+h1. SYNOPSIS:
 
 * In ruby code - Radio.radioize(word, separator)
 * Command-line $ radioize word
 
-== REQUIREMENTS:
+h1. REQUIREMENTS:
 
 * None
 
-== INSTALL:
+h1. INSTALL:
 
 * sudo gem install r38y-radio
 
-== LICENSE:
+h1. LICENSE:
 
 (The MIT License)
 
